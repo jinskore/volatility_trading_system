@@ -1,0 +1,14 @@
+env: paper
+appkey: # "사용자 앱키"
+appsecret: # "사용자 시크릿키"
+acc_no: # "사용자 모의계좌번호"
+domain:
+  paper:
+    rest: "https://openapivts.koreainvestment.com:29443"
+    ws:   "ws://ops.koreainvestment.com:31000"
+trading:
+  k: 0.5
+  take_profit: 0.05
+  stop_loss: 0.03
+  max_symbols: 30
+  buy_qty: 5
